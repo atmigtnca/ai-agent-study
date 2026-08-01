@@ -1,15 +1,16 @@
-# my-agent-harness — 에이전트 하네스
+# ai-agent-study — 에이전트 해부 학습 하네스
 
-<!-- /wiki-start 시공 시: 아래 문단을 프로젝트 소개로 교체한다 (무엇에 관한 위키인지, 원본이 무엇인지). -->
-이 repo는 팀과 AI 에이전트가 공유하는 **에이전트 하네스**다 — 기억(위키)·무인 구현 루프·Advisor/Worker 위임이 한 몸이다.
-그 기반은 세션 간 지식 저장소다.
-에이전트의 세션은 휘발되지만, 세션에서 얻은 지식(삽질의 해결책·사고·결정·개념)은
-여기 `wiki/`에 남아 다음 세션과 다음 사람의 시간을 아낀다.
+이 repo는 **AI 에이전트를 코드 수준에서 해부하며 공부하는 학습 하네스**다.
+원본은 두 에이전트 코드베이스 — 가제코드(Yeachan-Heo/gajae-code)와
+grok-build(xai-org/grok-build) — 의 로컬 클론(`~/refs/<repo>`, sources는 `경로@커밋해시`로 고정)과
+LangGraph 등 멀티에이전트 프레임워크다.
+세션은 휘발되지만, 읽어서(anatomy)·돌려봐서(practice)·견줘서(insight) 알아낸 지식은
+여기 `wiki/`에 남아 다음 세션의 시간을 아낀다.
 
 ## 구조
 
 ```
-my-agent-harness/
+ai-agent-study/
 ├── AGENTS.md              # 이 파일 — 모든 AI 에이전트용 공통 컨텍스트 (원본)
 ├── CLAUDE.md              # → AGENTS.md symlink
 ├── README.md              # 사람이 읽는 첫 문서 — 템플릿 적용법·커스터마이즈 포인트
